@@ -17,4 +17,12 @@ public class Commande implements Serializable {
     private Float totalRemise;
     private Float totalCommande;
     private Long note;
+
+    @ManyToOne
+    @JoinColumn(name = "menu_id")
+    private Menu menu;
+
+    @ManyToOne
+    @JoinColumn(name = "client_id")
+    private Client client;
 }

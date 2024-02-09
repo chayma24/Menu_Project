@@ -13,4 +13,5 @@ public class DetailComposant implements Serializable {
     private Long idDetailComposant;
     private Float imc;
     private typeComposant typeComposant;
+
 }

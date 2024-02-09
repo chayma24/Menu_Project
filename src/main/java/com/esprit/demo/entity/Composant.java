@@ -14,4 +14,12 @@ public class Composant implements Serializable {
     private String nomComposant;
     private Float prix;
 
+    @OneToOne
+    @JoinColumn(name = "DetailComposant_id")
+    private DetailComposant detailComposant;
+
+    @ManyToOne
+    @JoinColumn(name = "menu_id")
+    private Menu menu;
+
 }
