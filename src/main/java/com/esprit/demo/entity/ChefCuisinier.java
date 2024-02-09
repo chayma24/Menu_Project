@@ -17,7 +17,7 @@ public class ChefCuisinier implements Serializable {
     private String prenom;
     private typeChef typeChef;
 
-    @ManyToMany(mappedBy = "chefCuisiniers")
+    @ManyToMany
     @JoinTable(
             name = "menu_chef",
             joinColumns = @JoinColumn(name = "chef_id"),
