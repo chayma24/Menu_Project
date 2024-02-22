@@ -12,10 +12,15 @@ public class Commande implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idCommande")
     private Long idCommande;
+
     private LocalDate dateCommande;
+
     private int pourcentageRemise;
+
     private Float totalRemise;
+
     private Float totalCommande;
+
     private Long note;
 
     @ManyToOne
