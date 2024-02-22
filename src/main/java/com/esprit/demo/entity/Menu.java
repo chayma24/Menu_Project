@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
-import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -21,7 +20,7 @@ public class Menu implements Serializable {
     private Long idMenu;
     private String libelleMenu;
     @Enumerated(EnumType.STRING)
-    private typeMenu typeMenu;
+    private TypeMenu typeMenu;
 
     @ManyToMany(mappedBy = "menus")
     private Set<ChefCuisinier> chefCuisiniers;
