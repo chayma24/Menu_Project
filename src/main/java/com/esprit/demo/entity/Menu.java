@@ -18,7 +18,9 @@ public class Menu implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idMenu")
     private Long idMenu;
+
     private String libelleMenu;
+
     @Enumerated(EnumType.STRING)
     private TypeMenu typeMenu;
 

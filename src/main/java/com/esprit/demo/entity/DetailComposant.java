@@ -12,6 +12,9 @@ public class DetailComposant implements Serializable {
     @Column(name="idDetailComposant")
     private Long idDetailComposant;
     private Float imc;
-    private typeComposant typeComposant;
+    private TypeComposant typeComposant;
+
+    @OneToOne(mappedBy = "DetailComposant")
+    private Composant composant;
 
 }

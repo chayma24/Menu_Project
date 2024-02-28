@@ -1,5 +1,5 @@
 package com.esprit.demo.entity;
 
-public enum typeComposant {
+public enum TypeComposant {
     VIANDE_BLANCHE,VIANDE_ROUGE,CEREALE
 }
