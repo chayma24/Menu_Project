@@ -2,11 +2,13 @@ package com.esprit.demo.service;
 
 import com.esprit.demo.entity.Client;
 import com.esprit.demo.repository.ClientRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
+@AllArgsConstructor
 public class ClientService implements IClientService {
 
     ClientRepository clientRepository;

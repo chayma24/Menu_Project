@@ -22,7 +22,7 @@ public class Menu implements Serializable {
     private String libelleMenu;
 
     @Enumerated(EnumType.STRING)
-    private TypeMenu typeMenu;
+    private typeMenu typeMenu;
 
     @ManyToMany(mappedBy = "menus")
     private Set<ChefCuisinier> chefCuisiniers;

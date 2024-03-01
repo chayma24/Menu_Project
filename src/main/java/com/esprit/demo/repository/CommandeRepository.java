@@ -11,7 +11,7 @@ import java.util.List;
 
 @Repository
 public interface CommandeRepository extends JpaRepository<Commande, Long> {
-    List<Commande> findAllByClient(Client client);
+    List<Commande> findAllByClientIdClient(Long idClient);
     List<Commande> findAllByClientAndDateCommandeBetween(Client client, Date date1, Date date2);
     List<Commande> findAllByDateCommandeBetweenOrderByNoteAsc(Date date1, Date date2);
 }

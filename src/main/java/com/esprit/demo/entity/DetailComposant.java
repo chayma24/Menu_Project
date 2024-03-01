@@ -1,10 +1,18 @@
 package com.esprit.demo.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.io.Serializable;
 
 @Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "DetailComposant")
 public class DetailComposant implements Serializable {
     @Id
@@ -12,9 +20,9 @@ public class DetailComposant implements Serializable {
     @Column(name="idDetailComposant")
     private Long idDetailComposant;
     private Float imc;
-    private TypeComposant typeComposant;
+    private typeComposant typeComposant;
 
-    @OneToOne(mappedBy = "DetailComposant")
-    private Composant composant;
+   // @OneToOne(mappedBy = "DetailComposant")
+   // private Composant composant;
 
 }
