@@ -1,0 +1,11 @@
+package com.esprit.demo.controller;
+
+import lombok.AllArgsConstructor;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@AllArgsConstructor
+@RequestMapping("/chefcuisinier")
+public class ChefCuisinierController {
+}

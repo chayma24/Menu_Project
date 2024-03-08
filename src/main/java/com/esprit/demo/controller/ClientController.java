@@ -3,6 +3,7 @@ package com.esprit.demo.controller;
 import com.esprit.demo.entity.Client;
 import com.esprit.demo.service.IClientService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @RequestMapping("/client")
 public class ClientController {
+    @Autowired
     IClientService clientService;
 
     // http://localhost:8089/menu/client/retrieve-all-clients
