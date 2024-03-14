@@ -1,8 +1,10 @@
 package com.esprit.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.io.Serializable;
@@ -12,6 +14,7 @@ import java.util.Set;
 @Getter
 @Setter
 @AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "Menu")
 public class Menu implements Serializable {
     @Id
@@ -23,6 +26,8 @@ public class Menu implements Serializable {
 
     @Enumerated(EnumType.STRING)
     private typeMenu typeMenu;
+
+    private Float prixTotal;
 
     @ManyToMany(mappedBy = "menus")
     private Set<ChefCuisinier> chefCuisiniers;

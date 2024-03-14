@@ -8,7 +8,8 @@ import java.util.Date;
 import java.util.List;
 
 public interface ICommandeService {
-  List<Commande> retrieveAllClients(Long id);
+    List<Commande> retrieveAllClients(Long id);
+
     List<Commande> retrieveAllCommandes();
 
     Commande addCommande(Commande e);
@@ -19,8 +20,9 @@ public interface ICommandeService {
 
     void removeCommande(Long idCommande);
 
-    List<Commande> addCommandes (List<Commande> Commandes);
+    List<Commande> addCommandes(List<Commande> Commandes);
 
     List<Commande> findAllByIdClientAndDateCommandeBetween(Long idClient, CommandeDatesDTO dto);
+
     List<Commande> findAllByDateCommandeBetweenOrderByNoteAsc(CommandeDatesDTO dto);
- }
+}

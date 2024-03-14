@@ -1,11 +1,14 @@
 package com.esprit.demo.service;
 
 import com.esprit.demo.entity.Client;
+import com.esprit.demo.entity.Commande;
 import com.esprit.demo.repository.ClientRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @AllArgsConstructor
@@ -42,5 +45,15 @@ public class ClientService implements IClientService {
     @Override
     public List<Client> addClients(List<Client> Clients) {
         return clientRepository.saveAll(Clients);
+    }
+
+    @Override
+    public List<Commande> listeCommandesParClient(Long idClient) {
+        Optional<Client> client = clientRepository.findById(idClient);
+
+        if (client.isPresent()) {
+            return client.get().getCommandes().stream().toList();
+        }
+        return new ArrayList<>();
     }
 }

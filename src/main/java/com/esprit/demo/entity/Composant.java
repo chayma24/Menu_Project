@@ -1,5 +1,6 @@
 package com.esprit.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -23,8 +24,9 @@ public class Composant implements Serializable {
     private String nomComposant;
     private Float prix;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "DetailComposant_id")
+    @JsonIgnore
     private DetailComposant detailComposant;
 
     @ManyToOne

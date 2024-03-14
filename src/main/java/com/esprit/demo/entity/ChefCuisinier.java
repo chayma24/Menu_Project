@@ -1,5 +1,6 @@
 package com.esprit.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,5 +31,6 @@ public class ChefCuisinier implements Serializable {
             name = "menu_chef",
             joinColumns = @JoinColumn(name = "chef_id"),
             inverseJoinColumns = @JoinColumn(name = "menu_id"))
+    @JsonIgnore
     private Set<Menu> menus = new HashSet<>();
 }

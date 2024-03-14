@@ -21,6 +21,7 @@ public class CommandeService implements ICommandeService {
     public List<Commande> retrieveAllClients(Long id) {
         return commandeRepository.findAllByClientIdClient(id);
     }
+
     @Override
     public List<Commande> retrieveAllCommandes() {
         return commandeRepository.findAll();

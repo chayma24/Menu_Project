@@ -1,5 +1,6 @@
 package com.esprit.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -25,5 +26,6 @@ public class ChaineRestauration implements Serializable {
     private LocalDate dateCreation;
 
     @OneToMany(mappedBy = "chaineRestauration", cascade = CascadeType.ALL)
+    @JsonIgnore
     private Set<Restaurant> restaurants;
 }

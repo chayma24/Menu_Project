@@ -1,6 +1,7 @@
 package com.esprit.demo.controller;
 
 import com.esprit.demo.entity.Client;
+import com.esprit.demo.entity.Commande;
 import com.esprit.demo.service.IClientService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,5 +46,11 @@ public class ClientController {
     @DeleteMapping("/remove-client/{client-id}")
     public void removeClient(@PathVariable("client-id") Long clientId) {
         clientService.removeClient(clientId);
+    }
+
+    @GetMapping("/liste-commandes-par-client/{idClient}")
+    @ResponseBody
+    public List<Commande> listeCommandesParClient(@PathVariable("idClient") Long idClient){
+        return clientService.listeCommandesParClient(idClient);
     }
 }

@@ -34,6 +34,7 @@ public class Commande implements Serializable {
 
     @ManyToOne
     @JoinColumn(name = "menu_id")
+    @JsonIgnore
     private Menu menu;
 
     @ManyToOne

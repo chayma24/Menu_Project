@@ -1,5 +1,6 @@
 package com.esprit.demo.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -24,9 +25,11 @@ public class Restaurant implements Serializable {
     private Long nbPlacesMax;
 
     @OneToMany(mappedBy = "restaurant", cascade = CascadeType.ALL)
+    // @JsonIgnore
     private Set<Menu> menus;
 
     @ManyToOne
     @JoinColumn(name = "chaine_id")
+    @JsonIgnore
     private ChaineRestauration chaineRestauration;
 }

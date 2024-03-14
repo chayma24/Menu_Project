@@ -22,7 +22,5 @@ public class DetailComposant implements Serializable {
     private Float imc;
     private typeComposant typeComposant;
 
-   // @OneToOne(mappedBy = "DetailComposant")
-   // private Composant composant;
 
 }
