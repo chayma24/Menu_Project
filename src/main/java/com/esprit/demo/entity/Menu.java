@@ -2,10 +2,8 @@ package com.esprit.demo.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
+import lombok.experimental.FieldDefaults;
 
 import java.io.Serializable;
 import java.util.Set;
@@ -13,30 +11,32 @@ import java.util.Set;
 @Entity
 @Getter
 @Setter
+@ToString
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "Menu")
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Menu implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="idMenu")
-    private Long idMenu;
+    Long idMenu;
 
-    private String libelleMenu;
+    String libelleMenu;
 
     @Enumerated(EnumType.STRING)
-    private typeMenu typeMenu;
+    typeMenu typeMenu;
 
-    private Float prixTotal;
+    Float prixTotal;
 
     @ManyToMany(mappedBy = "menus")
-    private Set<ChefCuisinier> chefCuisiniers;
+    Set<ChefCuisinier> chefCuisiniers;
 
     @OneToMany(mappedBy = "menu", cascade = CascadeType.ALL)
-    private Set<Composant> composants;
+    Set<Composant> composants;
 
     @OneToMany(mappedBy = "menu", cascade = CascadeType.ALL)
-    private Set<Commande> commandes;
+    Set<Commande> commandes;
 
     @ManyToOne
     Restaurant restaurant ;
