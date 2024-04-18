@@ -25,4 +25,8 @@ public interface ICommandeService {
     List<Commande> findAllByIdClientAndDateCommandeBetween(Long idClient, CommandeDatesDTO dto);
 
     List<Commande> findAllByDateCommandeBetweenOrderByNoteAsc(CommandeDatesDTO dto);
+
+    void ajouterCommandeEtAffecterAClientEtMenu(Commande commande,
+                                                String identifiant,
+                                                String libelleMenu);
 }

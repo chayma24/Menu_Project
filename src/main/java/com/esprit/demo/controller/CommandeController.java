@@ -5,8 +5,14 @@ import com.esprit.demo.entity.Client;
 import com.esprit.demo.entity.Commande;
 import com.esprit.demo.service.IClientService;
 import com.esprit.demo.service.ICommandeService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -34,14 +40,14 @@ public class CommandeController {
 
     // http://localhost:8089/menu/commande/add-commande
     @PostMapping("/add-commande")
-    public Commande addCommande( @RequestBody Commande c) {
+    public Commande addCommande(@RequestBody Commande c) {
         Commande commande = commandeService.addCommande(c);
         return commande;
     }
 
     // http://localhost:8089/menu/commande/update-commande
     @PutMapping("/update-commande")
-    public Commande updateCommande( @RequestBody Commande c) {
+    public Commande updateCommande(@RequestBody Commande c) {
         Commande commande = commandeService.updateCommande(c);
         return commande;
     }
@@ -77,5 +83,26 @@ public class CommandeController {
     public List<Commande> findAllByDateCommandeBetweenOrderByNoteAsc(@RequestBody CommandeDatesDTO dto) {
         List<Commande> listCommandes = commandeService.findAllByDateCommandeBetweenOrderByNoteAsc(dto);
         return listCommandes;
+    }
+
+    @Operation(summary = "Ajouter une commande et l'affecter à un client et un menu")
+    @ApiResponses(value = {
+            @ApiResponse(responseCode = "201", description = "Commande ajoutée et affectée à un client et un menu"),
+            @ApiResponse(responseCode = "400", description = "Commande non ajoutée ou non affectée à un client ou un menu")
+    })
+    @PostMapping("/ajouter-commande-et-affecter-a-client-et-menu/{identifiant}/{libelleMenu}")
+    public ResponseEntity<?> ajouterCommandeEtAffecterAClientEtMenu(
+            @Parameter(description = "Commande à ajouter et affecter à un client et un menu", required = true)
+            @RequestBody Commande commande,
+            @Parameter(description = "Identifiant du client à affecter à la commande")
+            @PathVariable("identifiant") String identifiant,
+            @Parameter(description = "Libellé du menu à affecter à la commande")
+            @PathVariable("libelleMenu") String libelleMenu) {
+        try {
+            commandeService.ajouterCommandeEtAffecterAClientEtMenu(commande, identifiant, libelleMenu);
+            return ResponseEntity.status(HttpStatus.CREATED).build();
+        } catch (Exception e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
+        }
     }
 }

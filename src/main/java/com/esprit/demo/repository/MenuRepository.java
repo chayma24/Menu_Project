@@ -9,6 +9,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Repository
 public interface MenuRepository extends JpaRepository<Menu, Long> {
@@ -20,4 +21,6 @@ public interface MenuRepository extends JpaRepository<Menu, Long> {
 
     @Query("SELECT m FROM Menu m JOIN m.composants c JOIN c.detailComposant dc WHERE c.detailComposant.idDetailComposant = dc.idDetailComposant AND dc.typeComposant =: typeComposant")
     List<Menu> selectListMenuByTypeComposant(@Param("typeComposant") typeComposant typeComposant);
+
+    Optional<Menu> findByLibelleMenu(String libelleMenu);
 }
