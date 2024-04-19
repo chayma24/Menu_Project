@@ -1,15 +1,27 @@
-2024-04-19 12:49:54.526 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
-2024-04-19 12:49:54.538 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
-2024-04-19 12:49:54.555 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
-2024-04-19 12:50:04.573 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
-2024-04-19 12:50:04.574 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
-2024-04-19 12:50:04.618 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
-2024-04-19 12:50:14.625 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
-2024-04-19 12:50:14.626 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
-2024-04-19 12:50:14.684 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
-2024-04-19 12:50:24.650 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
-2024-04-19 12:50:24.651 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
-2024-04-19 12:50:24.712 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
-2024-04-19 12:50:27.500 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-04-19 12:50:27.504 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2024-04-19 12:50:27.522 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-19 16:43:01.642 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 16:43:01.662 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 16:43:01.672 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 16:43:01.672 [scheduling-1] INFO  c.e.d.c.PerformanceAspect - Method execution time: 9 milliseconds.
+2024-04-19 16:43:11.694 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 16:43:11.697 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 16:43:11.716 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 16:43:11.716 [scheduling-1] INFO  c.e.d.c.PerformanceAspect - Method execution time: 18 milliseconds.
+2024-04-19 16:43:21.720 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 16:43:21.721 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 16:43:21.729 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 16:43:21.729 [scheduling-1] INFO  c.e.d.c.PerformanceAspect - Method execution time: 8 milliseconds.
+2024-04-19 16:43:31.740 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 16:43:31.741 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 16:43:31.750 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 16:43:31.750 [scheduling-1] INFO  c.e.d.c.PerformanceAspect - Method execution time: 9 milliseconds.
+2024-04-19 16:43:41.754 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 16:43:41.755 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 16:43:41.761 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 16:43:41.762 [scheduling-1] INFO  c.e.d.c.PerformanceAspect - Method execution time: 7 milliseconds.
+2024-04-19 16:43:51.805 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 16:43:51.806 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 16:43:51.820 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 16:43:51.820 [scheduling-1] INFO  c.e.d.c.PerformanceAspect - Method execution time: 12 milliseconds.
+2024-04-19 16:44:01.497 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 16:44:01.502 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-19 16:44:01.516 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
