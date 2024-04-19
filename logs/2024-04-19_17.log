@@ -1,0 +1,92 @@
+2024-04-19 12:45:19.500 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:45:19.602 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:45:19.602 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:45:29.525 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:45:29.634 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:45:29.636 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:45:39.546 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:45:39.654 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:45:39.654 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:45:49.566 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:45:49.673 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:45:49.675 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:45:59.583 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:45:59.686 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:45:59.687 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:46:09.601 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:46:09.709 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:46:09.710 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:46:19.615 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:46:19.724 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:46:19.724 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:46:29.654 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:46:29.752 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:46:29.753 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:46:39.675 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:46:39.781 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:46:39.782 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:46:49.704 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:46:49.812 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:46:49.812 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:46:59.732 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:46:59.844 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:46:59.845 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:47:09.768 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 1 fois
+2024-04-19 12:47:09.877 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:47:09.878 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:47:19.795 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 2 fois
+2024-04-19 12:47:19.902 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:47:19.902 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:47:29.824 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 3 fois
+2024-04-19 12:47:29.929 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:47:29.930 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:47:39.846 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 4 fois
+2024-04-19 12:47:39.954 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:47:39.954 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:47:49.860 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 12:47:49.970 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:47:49.970 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:47:59.879 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 12:48:00.008 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:48:00.009 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:48:01.309 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 12:48:01.316 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-19 12:48:01.339 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-19 12:48:53.509 [main] INFO  com.esprit.demo.DemoApplication - Starting DemoApplication using Java 17.0.10 with PID 12440 (C:\Users\hp\Desktop\cours\spring-boot\demo\target\classes started by hp in C:\Users\hp\Desktop\cours\spring-boot\demo)
+2024-04-19 12:48:53.513 [main] INFO  com.esprit.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 12:48:55.177 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 12:48:55.375 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 167 ms. Found 7 JPA repository interfaces.
+2024-04-19 12:48:56.539 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-04-19 12:48:56.562 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-19 12:48:56.563 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-19 12:48:56.797 [main] INFO  o.a.c.c.C.[.[localhost].[/menu] - Initializing Spring embedded WebApplicationContext
+2024-04-19 12:48:56.798 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3174 ms
+2024-04-19 12:48:57.366 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 12:48:57.526 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-19 12:48:57.605 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-19 12:48:58.130 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 12:48:58.202 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-19 12:48:58.451 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33187485
+2024-04-19 12:48:58.454 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-19 12:48:58.568 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-04-19 12:49:00.481 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 12:49:00.865 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 12:49:01.559 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-19 12:49:02.594 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 12:49:04.085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/menu'
+2024-04-19 12:49:04.107 [main] INFO  com.esprit.demo.DemoApplication - Started DemoApplication in 11.416 seconds (process running for 12.743)
+2024-04-19 12:49:04.383 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:49:04.384 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:49:04.415 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 12:49:14.414 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:49:14.415 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:49:14.440 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 12:49:24.441 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:49:24.441 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:49:24.450 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 12:49:34.458 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:49:34.458 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:49:34.467 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois
+2024-04-19 12:49:44.495 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:49:44.496 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:49:44.514 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 5 fois

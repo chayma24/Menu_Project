@@ -1,0 +1,104 @@
+2024-04-19 12:43:33.621 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "com.esprit.demo.entity.Menu.getLibelleMenu()" because "bestMenu" is null
+	at com.esprit.demo.service.CommandeService.menuPlusCommande(CommandeService.java:127)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-04-19 12:43:33.720 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:43:33.720 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:43:43.651 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "com.esprit.demo.entity.Menu.getLibelleMenu()" because "bestMenu" is null
+	at com.esprit.demo.service.CommandeService.menuPlusCommande(CommandeService.java:127)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-04-19 12:43:43.747 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:43:43.747 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:43:53.678 [scheduling-1] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler - Unexpected error occurred in scheduled task
+java.lang.NullPointerException: Cannot invoke "com.esprit.demo.entity.Menu.getLibelleMenu()" because "bestMenu" is null
+	at com.esprit.demo.service.CommandeService.menuPlusCommande(CommandeService.java:127)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124)
+	at io.micrometer.observation.Observation.observe(Observation.java:499)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-04-19 12:43:53.770 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:43:53.770 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:43:56.293 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 12:43:56.298 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-04-19 12:43:56.312 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-04-19 12:44:09.824 [main] INFO  com.esprit.demo.DemoApplication - Starting DemoApplication using Java 17.0.10 with PID 19924 (C:\Users\hp\Desktop\cours\spring-boot\demo\target\classes started by hp in C:\Users\hp\Desktop\cours\spring-boot\demo)
+2024-04-19 12:44:09.828 [main] INFO  com.esprit.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 12:44:11.178 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 12:44:11.302 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 7 JPA repository interfaces.
+2024-04-19 12:44:12.114 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-04-19 12:44:12.136 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-19 12:44:12.137 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-19 12:44:12.249 [main] INFO  o.a.c.c.C.[.[localhost].[/menu] - Initializing Spring embedded WebApplicationContext
+2024-04-19 12:44:12.250 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2341 ms
+2024-04-19 12:44:12.795 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 12:44:12.884 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-19 12:44:12.948 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-19 12:44:13.372 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 12:44:13.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-19 12:44:13.701 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d4f67e
+2024-04-19 12:44:13.705 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-19 12:44:13.805 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-04-19 12:44:15.647 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 12:44:16.006 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 12:44:16.565 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-19 12:44:17.476 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 12:44:19.073 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/menu'
+2024-04-19 12:44:19.101 [main] INFO  com.esprit.demo.DemoApplication - Started DemoApplication in 10.114 seconds (process running for 11.274)
+2024-04-19 12:44:19.374 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:44:19.475 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:44:19.475 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:44:29.404 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:44:29.507 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:44:29.510 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:44:39.413 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:44:39.521 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:44:39.521 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:44:49.432 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:44:49.542 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:44:49.543 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:44:59.464 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:44:59.571 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:44:59.571 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:45:09.476 [scheduling-1] INFO  c.e.demo.service.CommandeService - Le menu le plus commandé dans notre restaurant est libMenu1 commandé 0 fois
+2024-04-19 12:45:09.584 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:45:09.584 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7

@@ -1,0 +1,69 @@
+2024-04-19 12:14:06.773 [main] INFO  com.esprit.demo.DemoApplication - Starting DemoApplication using Java 17.0.10 with PID 1364 (C:\Users\hp\Desktop\cours\spring-boot\demo\target\classes started by hp in C:\Users\hp\Desktop\cours\spring-boot\demo)
+2024-04-19 12:14:06.780 [main] INFO  com.esprit.demo.DemoApplication - No active profile set, falling back to 1 default profile: "default"
+2024-04-19 12:14:08.259 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-04-19 12:14:08.439 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 170 ms. Found 7 JPA repository interfaces.
+2024-04-19 12:14:09.267 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2024-04-19 12:14:09.285 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-19 12:14:09.285 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-04-19 12:14:09.376 [main] INFO  o.a.c.c.C.[.[localhost].[/menu] - Initializing Spring embedded WebApplicationContext
+2024-04-19 12:14:09.378 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2512 ms
+2024-04-19 12:14:09.620 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-04-19 12:14:09.706 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-04-19 12:14:09.756 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-04-19 12:14:10.100 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-04-19 12:14:10.142 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-19 12:14:10.388 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@145a821d
+2024-04-19 12:14:10.391 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-19 12:14:10.458 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.0 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2024-04-19 12:14:12.740 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-04-19 12:14:13.258 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-04-19 12:14:14.020 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-04-19 12:14:14.950 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-04-19 12:14:16.447 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/menu'
+2024-04-19 12:14:16.472 [main] INFO  com.esprit.demo.DemoApplication - Started DemoApplication in 10.474 seconds (process running for 11.804)
+2024-04-19 12:14:16.837 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:14:16.838 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:14:26.853 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:14:26.854 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:14:36.873 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:14:36.874 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:14:46.919 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:14:46.919 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:14:56.936 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:14:56.937 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:15:06.967 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:15:06.968 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:15:16.991 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:15:16.991 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:15:27.009 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:15:27.009 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:15:37.040 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:15:37.041 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:15:47.069 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:15:47.070 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:15:57.102 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:15:57.103 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:16:07.114 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:16:07.115 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:16:17.133 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:16:17.134 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:16:27.146 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:16:27.147 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:16:37.178 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:16:37.178 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:16:47.213 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:16:47.214 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:16:57.227 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:16:57.228 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:17:07.252 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:17:07.254 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:17:17.281 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:17:17.282 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:17:27.308 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:17:27.309 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:17:37.328 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:17:37.328 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:17:47.364 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:17:47.365 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7
+2024-04-19 12:17:57.389 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 10.0 a une note de 5
+2024-04-19 12:17:57.389 [scheduling-1] INFO  c.e.demo.service.CommandeService - La commande faite le 2024-03-20 d'un montant global de 100.0 a une note de 7

@@ -8,11 +8,17 @@ import com.esprit.demo.repository.ClientRepository;
 import com.esprit.demo.repository.CommandeRepository;
 import com.esprit.demo.repository.MenuRepository;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.List;
 
+@Slf4j
 @Service
 @AllArgsConstructor
 public class CommandeService implements ICommandeService {
@@ -69,6 +75,7 @@ public class CommandeService implements ICommandeService {
     public List<Commande> findAllByDateCommandeBetweenOrderByNoteAsc(CommandeDatesDTO dto) {
         return commandeRepository.findAllByDateCommandeBetweenOrderByNoteAsc(dto.getDate1(), dto.getDate2());
     }
+
     @Override
     public void ajouterCommandeEtAffecterAClientEtMenu(Commande commande,
                                                        String identifiant,
@@ -90,5 +97,33 @@ public class CommandeService implements ICommandeService {
         commande.setTotalCommande(totalCommande);
 
         commandeRepository.save(commande);
+    }
+
+    @Scheduled(fixedDelay = 10000) // 10s
+    @Override
+    public void findCurrentYearCommandesOrderByNote() {
+        int year = LocalDate.now().getYear();
+        LocalDate startDate = LocalDate.of(year, 1, 1);
+        LocalDate endDate = LocalDate.of(year, 12, 31);
+        List<Commande> commandes = commandeRepository.findAllByDateCommandeBetweenOrderByNoteAsc(startDate, endDate);
+        commandes.forEach(commande -> {
+            log.info("La commande faite le {} d'un montant global de {} a une note de {}", commande.getDateCommande(), commande.getTotalCommande(), commande.getNote());
+        });
+    }
+
+    @Override
+    @Scheduled(fixedDelay = 10000)
+    public void menuPlusCommande() {
+        int nbCommandesMax = 0;
+        List<Menu> allMenus = menuRepository.findAll();
+        Menu bestMenu = allMenus.get(0);
+        for (Menu m : allMenus) {
+            int nbCommandesMenu = m.getCommandes().size();
+            if (nbCommandesMenu > nbCommandesMax) {
+                nbCommandesMax = nbCommandesMenu;
+                bestMenu = m;
+            }
+        }
+        log.info("Le menu le plus commandé dans notre restaurant est {} commandé {} fois", bestMenu.getLibelleMenu(), nbCommandesMax);
     }
 }
